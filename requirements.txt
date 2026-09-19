@@ -1,0 +1,50 @@
+# LLM
+groq>=0.30.0
+langchain>=0.3.27
+langchain-core>=0.3.70
+langchain-community>=0.3.27
+langchain-groq>=0.3.7
+
+# Vector Database
+chromadb>=1.0.15
+
+# Embeddings
+sentence-transformers>=5.0.0
+transformers>=4.53.0
+torch>=2.7.0
+
+# Tokenization
+tiktoken>=0.9.0
+
+# PDF Processing
+pypdf>=5.7.0
+pymupdf>=1.26.0
+pdfplumber>=0.11.7
+
+# Microsoft Office Documents
+python-docx>=1.2.0
+openpyxl>=3.1.5
+unstructured>=0.18.0
+
+# HTML/XML
+beautifulsoup4>=4.13.4
+lxml>=6.0.0
+
+# Data Processing
+pandas>=2.3.0
+numpy>=2.3.0
+
+# API
+requests>=2.32.4
+
+# JSON Validation
+pydantic>=2.11.7
+
+# Environment Variables
+python-dotenv>=1.1.1
+
+# Progress Bar
+tqdm>=4.67.1
+
+# Utilities
+typing-extensions>=4.14.1
