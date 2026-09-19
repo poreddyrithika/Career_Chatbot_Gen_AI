@@ -142,7 +142,6 @@ if st.button("Get Advice") and user_query:
     st.subheader("Top Retrieved Context")
     for doc in top_context:
         st.write("-", doc)
-
     st.subheader("Personalized Career Advice")
     st.write(career_advice.content)
 
